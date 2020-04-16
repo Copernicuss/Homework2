@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/noteText"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/buttonedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edit" />
+
+    <Button
+        android:id="@+id/buttonread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read" />
+
+    <TextView
+        android:id="@+id/displaytext"
+        android:layout_width="match_parent"
+        android:layout_height="201dp" />
+
+</LinearLayout>
